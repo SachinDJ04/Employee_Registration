@@ -12,13 +12,8 @@ const userSchema = new mongooes.Schema({
         type : String,
         required : true
     },
-    image : {
-        type : String,
-        required : true
-    },
     created: {
         type : Date,
-        required : true,
         default : Date.now
     },
 })
